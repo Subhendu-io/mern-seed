@@ -1,0 +1,58 @@
+{
+  "name": "mern-seed",
+  "version": "1.0.0",
+  "description": "MERN-Stack Seed With Type Script ( MongoDB 5 + Express 4 + React 18 + NodeJS 18 ) #2022",
+  "main": "app.js",
+  "author": "Subhendu.io",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/Subhendu-io/mern-seed#readme",
+  "keywords": [
+    "MERN-Stack",
+    "NodeJs",
+    "Architecture"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subhendu-io/mern-seed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Subhendu-io/mern-seed/issues"
+  },
+  "scripts": {
+    "lint": "eslint server",
+    "test": "nodemon server/app.js",
+    "dev": "nodemon server/app.js",
+    "start": "forever server/app.js"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix"
+    ]
+  },
+  "engines": {
+    "node": "14.2.0",
+    "npm": "~6.14.4"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-enforces-ssl": "^1.1.0",
+    "express-useragent": "^1.0.15",
+    "express-validator": "^6.14.0",
+    "feature-policy": "^0.6.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.1",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  }
+}
